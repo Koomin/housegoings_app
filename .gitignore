@@ -4,4 +4,4 @@ __pycache__/
 .idea/
 .env.dev
 docker-compose.yml
-housegoings/media/
+app/housegoings/media/
