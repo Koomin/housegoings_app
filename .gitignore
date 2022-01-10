@@ -1,0 +1,7 @@
+# Project exclude paths
+__pycache__/
+/venv/
+.idea/
+.env.dev
+docker-compose.yml
+housegoings/media/
