@@ -6,6 +6,7 @@ from housegoings.transactions.models import Transaction, TransactionImport
 
 @admin.register(Transaction)
 class TransactionAdmin(admin.ModelAdmin):
+    change_list_template = 'transactions/change_list.html'
     list_display = ('value', 'transaction_date', 'description', 'bank_account', 'currency', 'type')
     fields = (('type', 'value', 'currency',),
               ('transaction_date', 'bank_account',),
