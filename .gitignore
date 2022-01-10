@@ -2,6 +2,4 @@
 __pycache__/
 /venv/
 .idea/
-.env.dev
-docker-compose.yml
 app/housegoings/media/
